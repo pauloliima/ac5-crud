@@ -48,28 +48,6 @@ localhost:8081/docs
 
 3 - Veja a documentação gerada via OpenAPI.
 
-# Execuções
+# Execição
 
-1 - POST
-
-![post](img/post.png)
-
-2 - GET
-
-![post](img/get.png)
-
-3 - PATCH
-
-![post](img/update.png)
-
----
-
-4 - DELETE
-
-![post](img/delete.png)
-
----
-
-5 - GET após delete.
-
-![post](img/get-vazio.png)
+![post](img/execucao.png)

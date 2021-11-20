@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 
 
-class BaseItem(BaseModel):
+class BaseProduct(BaseModel):
     name: str
     qty: int
     price: float
@@ -12,7 +12,7 @@ class BaseItem(BaseModel):
         allow_population_by_field_name = True
 
 
-class BaseItemUpdate(BaseModel):
+class BaseProductUpdate(BaseModel):
     name: str = None
     qty: int = None
     price: float = None

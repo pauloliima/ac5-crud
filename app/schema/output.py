@@ -1,9 +1,9 @@
 from datetime import datetime
 from pydantic import validator
-from app.schema.input import BaseItem
+from app.schema.input import BaseProduct
 
 
-class BaseItemOut(BaseItem):
+class BaseProductOut(BaseProduct):
     id: int
     created_at: datetime
     updated_at: datetime

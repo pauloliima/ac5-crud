@@ -4,8 +4,8 @@ from app.config.config import settings
 from app.model.database import Base
 
 
-class Item(Base):
-    __tablename__ = "items"
+class Product(Base):
+    __tablename__ = "products"
     # access
     id = sqlalchemy.Column(sqlalchemy.BigInteger, primary_key=True, autoincrement=True)
     name: str = sqlalchemy.Column(sqlalchemy.String(100), nullable=True, unique=True)

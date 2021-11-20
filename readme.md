@@ -44,7 +44,7 @@ Dentro da pasta nginx tem dois arquivos, o dockerfile que é o arquivo que irá 
 docker-compose up --build
 
 2 - Acesse a url abaixo pelo navegador.
-localhost:80/docs
+localhost:8081/docs
 
 3 - Veja a documentação gerada via OpenAPI.
 
